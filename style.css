@@ -1,0 +1,57 @@
+:root {
+  --grid-cols: 1;
+  --grid-rows: 1;
+}
+
+#container {
+  display: grid;
+  grid-gap: 0em;
+  grid-template-rows: repeat(var(--grid-rows), 1fr);
+  grid-template-columns: repeat(var(--grid-cols), 1fr);
+  margin: auto;
+  width: 50%;
+  background-color: purple;
+}
+
+.grid-item {
+  padding: 1em;
+  border: 1px black;
+  text-align: center;
+}
+
+h1{
+  color: yellow;
+  text-align: center;
+}
+
+body{
+  background-color: black;
+}
+
+#clear{
+  background-color: red; 
+  border: none;
+  padding: 10px 24px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#clearButton{
+  text-align: center;
+  padding-top: 20px;
+}
+
+#gridSize{
+  text-align: center;
+  padding-top: 20px;
+}
+
+#size{
+  background-color: red; 
+  border: none;
+  padding: 10px 24px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
